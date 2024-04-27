@@ -3,7 +3,7 @@ This project comprises mainly of two Python files: flappy.py and flappyunlimited
 
 File: flappy.py
 
-flappy.py contains the Python code for the classic version of Flappy Bird. In this version, the game ends when the bird collides with any pipe. The objective is to navigate the bird through gaps between pipes by tapping the screen or pressing a key to make the bird flap its wings and ascend. Players must time their taps carefully to keep the bird airborne and avoid collisions with the pipes.
+flappy.py contains the Python code for the classic version of Flappy Bird. In this version, the game ends when the bird collides with any pipe or touches the ceiling or ground. The objective is to navigate the bird through gaps between pipes by pressing space key to make the bird flap its wings and ascend. Players must time their taps carefully to keep the bird airborne and avoid collisions with the pipes.
 
 File: flappyunlimited.py
 
@@ -12,11 +12,11 @@ flappyunlimited.py introduces a variation of Flappy Bird known as Flappy Unlimit
 Gameplay Instructions:
 
 Controls:
-Press any key or tap the screen to make the bird flap its wings and ascend.
+Press space key to make the bird flap its wings and ascend.
 Scoring:
-In both versions, players earn one point for each pipe the bird successfully passes through without colliding.
+In both versions, players earn one point for each pipe the bird passes through without colliding or colliding in case of flappyunlimited.
 Game Over:
-In flappy.py, the game ends when the bird collides with any pipe.
+In flappy.py, the game ends when the bird collides with any pipe or with the ground or touches the ceiling.
 In flappyunlimited.py, the game ends when the bird collides with the ground or touches the ceiling.
 Project Purpose:
 
